@@ -1,0 +1,366 @@
+
+
+/* destop view */
+/* (992px and above) */
+
+
+@media(min-width:992px) {
+    
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.first{
+
+    border: 1px solid #000;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+    position: relative;
+    background:#696666;
+
+}
+
+.first h4{
+
+    border: 1px solid #000;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #dd7f7f;
+
+}
+
+.first p{
+
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.second{
+    
+    border: 1px solid #000;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+    position: relative;
+    background:#696666;
+
+}
+
+.second h4{
+
+    border: 1px solid #000;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #eb0808;
+
+
+}
+
+.second p{
+
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+
+.third{
+    
+    border: 1px solid #000;
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10%;
+    position: relative;
+    background:#696666;
+
+}
+
+.third h4{
+
+    border: 1px solid #000;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e1e42e;
+
+}
+
+.third p{
+
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+}
+
+/* tablet view */
+/* (between 768px and 991px, inclusively) */
+
+@media(min-width:768px) and (max-width:991px) {
+    
+
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .first{
+    
+        border: 1px solid #000;
+        width: 35%;
+        padding: 10px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10%;
+        position: relative;
+        background:#696666;
+    
+    }
+    
+    .first h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #dd7f7f;
+    
+    }
+    
+    .first p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    .second{
+        
+        border: 1px solid #000;
+        width: 35%;
+        padding: 10px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 10%;
+        position: relative;
+        background:#696666;
+    
+    }
+    
+    .second h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #eb0808;
+    
+    
+    }
+    
+    .second p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    
+    .third{
+        
+        border: 1px solid #000;
+        width: 83%;
+        padding: 10px;
+        float: left;
+        margin-top: 5%;
+        position: relative;
+        margin-left: 10%;
+        margin-right: 10%;
+        background:#696666;
+    
+    }
+    
+    .third h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #e1e42e;
+    
+    }
+    
+    .third p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    }
+
+    /* (equal to or less than 767px) */
+
+
+
+@media(max-width:767px) {
+    
+
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+    
+    h1{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .first{
+    
+        border: 1px solid #000;
+        width: 33.3%;
+        padding: 10px;
+        background:#696666;
+        margin-top: 20px;
+        margin-left: 33.3%;
+        position: relative;
+        background:#696666;
+        
+    
+    }
+    
+    .first h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #dd7f7f;
+    
+    }
+    
+    .first p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    .second{
+        
+        border: 1px solid #000;
+        width: 33.3%;
+        padding: 10px;
+        margin-left: 33.3%;
+        margin-top: 20px;
+       
+        position: relative;
+        background:#696666;
+    
+    }
+    
+    .second h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #eb0808;
+    
+    
+    }
+    
+    .second p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    
+    .third{
+        
+        border: 1px solid #000;
+        width: 33.3%;
+        padding: 10px;
+        margin-left: 33.3%;
+        margin-top: 20px;
+        position: relative;
+        background:#696666;
+    
+    }
+    
+    .third h4{
+    
+        border: 1px solid #000;
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #e1e42e;
+    
+    }
+    
+    .third p{
+    
+        padding: 10px;
+        margin-top: 20px;
+    
+    }
+    
+    }
+    
